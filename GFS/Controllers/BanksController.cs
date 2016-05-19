@@ -19,6 +19,10 @@ namespace GFS.Controllers
         {
             return View(db.Banks.ToList());
         }
+        public string testbands()
+        {
+            return null;
+        }
 
         // GET: Banks/Details/5
         public ActionResult Details(int? id)
